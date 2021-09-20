@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Wed Jun 10 21:18:08 2020
 
-@author: Vishwas Basotra
-"""
 # importing libraries
 import pandas as pd
 import numpy as np
