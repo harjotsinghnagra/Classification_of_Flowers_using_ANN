@@ -10,7 +10,8 @@ Create the model that can classify the different species of the Iris flower.
  <h2>Model</h2>
 
 
-The network itself was implemented using **transfer learning**. The MobileNet V2 model developed at Google was used as a base model for feature extraction from our data. A custom classification layer was added on top and trained separately. You can learn more about this approach [here](https://www.tensorflow.org/tutorials/images/transfer_learning). The notebook I used to implement the model on Google Colab can be found [here](https://github.com/Vipul1947/classify_fruits_and_its_freshness/blob/main/notebooks/FruitNetTransferLearning.ipynb).
+The network itself was implemented using **Artificial Neural Networks**. I have built the model by adding dense layers whose activation function inlude softmax and relu.
+In order to increase the accuracy we have implemented adam optimizer.
 <br><br>
 
 
@@ -24,6 +25,8 @@ The network itself was implemented using **transfer learning**. The MobileNet V2
 <br>
 <br>
 <h2> FLOW CHART </h2>
+
+![image](https://user-images.githubusercontent.com/80465715/134001671-1ec218dd-f57b-4d05-bc6f-9055adb619de.png)
 
 
 
